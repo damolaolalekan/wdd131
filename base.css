@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0 auto;
+    font-weight: 100;
+    
+}
+
+
+header {
+    width: 100%;
+    align-items: center;  
+    color: white;
+    background-color: #1d4d72;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 8px 0 0;
+}
+
+
+h1{
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 400;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    background-color: #333333;
+    padding: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a:hover {
+        border: 2px solid #ffffff;
+    }
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;  
+    text-align: center;
+    padding: 1rem;
+}
+
+.course-title {
+    font-size: 24px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;padding-left: 20%;
+}
+
+header, main, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+
+    nav ul {
+        display: flex;
+    }
+
+    nav a:hover {
+        border: 2px solid #ffffff;
+    }
+
+    nav ul li {
+        justify-content: space-around;
+    }
+}
+
+
+.main {
+    display: flex;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.container,
+.Web-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .about,
+.Web-card h2 {
+    background-color: #1d4d72;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    margin: -10px -10px 20px -10px;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.Web-card {
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 2px;
+    width: 100%;
+    height: 100%;
+}
+
+.Web-card ul {
+    padding-top: 80px;
+    margin-left: 10px;
+}
+
+.me, .country {
+    display: flex;
+    margin-bottom: 8px;
+    margin-top: 21px;
+}
+
+.me img {
+    margin-left: 20px;
+}
+
+.country img {
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+
+.card h2{
+    text-align: center;
+    border-bottom: solid 2px #9ba5ac;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    align-items: center;  
+    color: white;
+    background-color: #1d4d72;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
