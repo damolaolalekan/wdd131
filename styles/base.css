@@ -133,6 +133,11 @@ header, main, footer {
     height: 100%;
 }
 
+.img {
+    width: 200px;
+    height: 136px;
+}
+
 .Web-card ul {
     padding-top: 80px;
     margin-left: 10px;
