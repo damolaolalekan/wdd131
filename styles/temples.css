@@ -29,6 +29,15 @@ header {
     padding: auto;
 }
 
+header nav {
+    display: none;
+
+}
+
+header nav.show {
+    display: block;
+}
+
 header, main, footer {
     max-width: 840px;
     margin: 0 auto;
@@ -69,8 +78,8 @@ main {
   font-weight: 700;
   text-decoration: none;
   padding: 0.5rem 0.75rem;
-  background-color: #eee;
-  color: #000;
+  background-color: 3c0a64;
+  color: white;
 }
 
 #menu::before {
