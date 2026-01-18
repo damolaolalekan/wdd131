@@ -1,0 +1,65 @@
+@media (min-width: 768px) {
+
+    nav ul {
+        list-style: none;
+        justify-content: center;
+        flex-direction: row;
+        display: flex;
+    }
+
+
+    nav a:hover {
+        border: 2px solid #ffffff;
+    }
+
+    nav ul li {
+        justify-content: center;
+    }
+
+    .temple-images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+.header h1 {
+  font-size: 1.3rem;
+}
+
+.menu-btn {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Main content */
+main {
+  text-align: center;
+  padding: 1rem;
+}
+
+main h2 {
+  margin-bottom: 1rem;
+}
+
+/* Images */
+figure {
+  margin-bottom: 1.5rem;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption {
+  color: purple;
+  margin-top: 0.5rem;
+}
+
+}
