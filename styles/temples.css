@@ -47,9 +47,13 @@ nav ul {
     list-style: none;
 }
 
-nav a:hover {
-        border: 2px solid #ffffff;
-    }
+.navigation a:hover,
+.navigation a:active {
+	color: white;
+	background-color: black;
+}
+
+
 
 header nav a {
     color: #ffffff;
@@ -84,6 +88,14 @@ main {
 
 #menu::before {
   content: "≡";
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
 }
 
 .temple-images {
