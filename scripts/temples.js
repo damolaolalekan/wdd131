@@ -11,33 +11,23 @@ if (lastModifiedSpan) {
 }
 
 // Responsive Hamburger Menu
+
+// Responsive Hamburger Menu
 const menuBtn = document.getElementById('menu');
 const nav = document.querySelector('header nav');
 
-// Check if elements exist
 if (menuBtn && nav) {
-  // Toggle menu on click
   menuBtn.addEventListener('click', (e) => {
     e.preventDefault();
 
-    // Toggle class to show/hide nav
     nav.classList.toggle('show');
-
-    // Toggle button symbol
-    if (nav.classList.contains('show')) {
-      menuBtn.textContent = '✕';
-    } else {
-      menuBtn.textContent = '≡'; 
-    }
+    menuBtn.classList.toggle('show');
   });
 
   nav.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
-      if (nav.classList.contains('show')) {
-        nav.classList.remove('show');
-        menuBtn.textContent = '≡';
-      }
+      nav.classList.remove('show');
+      menuBtn.classList.remove('show');
     });
   });
 }
-

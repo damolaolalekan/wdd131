@@ -10,9 +10,9 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-h1{
+h2{
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     font-weight: 400;
 }
 
@@ -78,6 +78,10 @@ main {
   padding: 0.5rem 0.75rem;
   background-color: #3c0a64;
   color: white;
+}
+
+#menu.show {
+  margin-bottom: 7em;
 }
 
 #menu::before {
