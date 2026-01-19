@@ -16,8 +16,6 @@ h1{
     font-weight: 400;
 }
 
-
-
 header {
     display: flex;
     justify-content: space-between;
@@ -75,6 +73,7 @@ main {
   padding: 1rem;
   text-align: center;
 }
+
 
 #menu {
   display: block;
