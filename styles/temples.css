@@ -61,12 +61,6 @@ header nav a {
     text-align: center;
 }
 
-
-main { 
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -80,8 +74,9 @@ main {
   font-size: 2rem;
   font-weight: 700;
   text-decoration: none;
+  cursor: pointer;
   padding: 0.5rem 0.75rem;
-  background-color: 3c0a64;
+  background-color: #3c0a64;
   color: white;
 }
 
