@@ -18,7 +18,12 @@ button.addEventListener('click', function() {
 document.addEventListener("DOMContentLoaded", function() {
 });
 
-if (input.value.trim() !== '') { ... }
+if (input.value.trim() !== '') {
+  // Create list item
+  document.createElement('li');
+  li.textContent = input.value;
+    
+}
 
 deleteButton.addEventListener('click', function () {
   list.removeChild(li);

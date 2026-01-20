@@ -11,8 +11,6 @@ if (lastModifiedSpan) {
 }
 
 // Responsive Hamburger Menu
-
-// Responsive Hamburger Menu
 const menuBtn = document.getElementById('menu');
 const nav = document.querySelector('header nav');
 const header = document.querySelector('header'); 
