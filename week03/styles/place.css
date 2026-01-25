@@ -57,6 +57,10 @@ li {
     
 }
 
+.card-weather {
+    background-color: white;
+}
+
 .card-weather p {
     background-color: white;
     padding-top: 6px;
