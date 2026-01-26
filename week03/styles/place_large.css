@@ -118,13 +118,6 @@ main{
     height: 500px;
 }
 
-.hero {
-  position: relative;
-  text-align: center;
-  background-color: #c8102e;
-  line-height: 1.6;
-}
-
 footer {
   width: 100%;
   background-color: #c8102e;
