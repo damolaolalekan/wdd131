@@ -30,20 +30,21 @@ main, header, footer {
 
 
     picture {
+        display: block;
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
 
-picture {
-  display: block;
-}
-
 .bird {
   display: none;
 }
 
+ h2 {
+    padding-top: 20px;
+    text-align: center;
+ }
 
 h2::after {
   content: "";
@@ -53,11 +54,7 @@ h2::after {
   background-color: var(--primary-color);
   margin: 10px auto 0;
 }
-    h2 {
-    padding-top: 20px;
-    text-align: center;
-
-}
+   
 
 ul {
     padding-top: 6px;
