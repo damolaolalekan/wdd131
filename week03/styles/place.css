@@ -85,7 +85,7 @@ li {
 .weather img {
     margin-bottom: 2px;
      width: 50px;
-     margin-left: 13rem;
+     margin-left: 11rem;
 }
 
 .card-weather p {
@@ -98,9 +98,8 @@ li {
 }
 
     footer {
-        width: 100%;
         background-color: #c8102e;
-        padding: 20px 0;
+        padding: 20px 30px;
         width: 100%;
         align-items: center;  
         color: white;
