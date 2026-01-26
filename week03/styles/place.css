@@ -1,4 +1,4 @@
-
+@media (min-width: 320px){
 
     :root {
   --primary-color: #c8102e;
@@ -111,3 +111,5 @@ li {
         margin-top: 10px;
 
     }
+
+}
