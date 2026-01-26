@@ -118,6 +118,14 @@ main{
     height: 500px;
 }
 
+ picture {
+    display: none;
+  }
+
+  .bird {
+    display: block;
+  }
+
 footer {
   width: 100%;
   background-color: #c8102e;

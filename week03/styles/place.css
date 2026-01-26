@@ -36,6 +36,16 @@ main, header, footer {
         object-fit: cover;
     }
 
+
+picture {
+  display: block;
+}
+
+.bird {
+  display: none;
+}
+
+
 h2::after {
   content: "";
   display: block;
