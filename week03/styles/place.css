@@ -1,5 +1,11 @@
 @media (min-width: 220px) {
 
+    :root {
+  --primary-color: #c8102e;
+  --bg-color: #eefeee;
+  --text-color: #222;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +14,8 @@
 }
 
 body {
-  background-color: #eefeee;
-  color: #222;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 main, header, footer {
@@ -17,7 +23,7 @@ main, header, footer {
 }
 
 .me {
-    background-color: #c8102e;
+    background-color: var(--primary-color);
     color: white;
     text-align: center;
     height: 80px;
@@ -30,7 +36,14 @@ main, header, footer {
         object-fit: cover;
     }
 
-
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 10px auto 0;
+}
     h2 {
     padding-top: 20px;
     text-align: center;
