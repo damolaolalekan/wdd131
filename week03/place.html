@@ -43,18 +43,21 @@
     </section>
 
     <section class="card-weather">
-      <h2>Weather</h2>
-    
+      <div class="weather">
+        <h2>Weather</h2>
+      <img src="images/cloudy_9806338.svg" alt="cloudy" width="50" height="50">
+      </div>
       <p><strong>Temperature:</strong> 10°C</p>
       <p><strong>Conditions:</strong> Partly Cloudy</p>
       <p><strong>Wind:</strong> 5 km/h</p>
-      <p><strong>Wind Chill:</strong> 9.8°C</p>
+      <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
     </section>
 </main>
 
  <footer>
-    <p>©2024 🌸 Rubia Magdelena Francesco 🌸 Madagascar</p>
-    <p>Last Modification: <span id="lastModified"></span></p>
+    <p>©<span id="year"></span> 🌸 Rubia Magdelena Francesco 🌸 Madagascar</p>
+<p>Last Modification: <span id="lastModified"></span></p>
+
   </footer>
     
 </body>

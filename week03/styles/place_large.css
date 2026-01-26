@@ -39,11 +39,10 @@ header {
     margin-top: 10px;
 }
 
-h2 {
+.card h2 {
     background-color: green;
     padding-top: 20px;
     text-align: center;
-
 }
 
 ul {
@@ -51,7 +50,6 @@ ul {
     list-style: none;
     text-align: center;
     font-size: 18px;
-    
 }
 
 li {
@@ -69,8 +67,7 @@ main{
     border: 1px solid black;
     width: 280px;
     margin-left: 10px;    
-   bottom: 50px;
-
+    bottom: 50px;
 }
 
 .card h2{
@@ -80,12 +77,18 @@ main{
 }
 
 .card-weather p {
-    list-style: none;
     text-align: center;
     font-size: 18px;
-    
 }
 
+.card-weather h2{
+    width: 210px;
+    margin-top: 5px;
+    background-color: green;
+    padding-top: 20px;
+    text-align: center;
+
+}
 
 .card-weather {
     position: absolute;
@@ -95,26 +98,38 @@ main{
     width: 280px;
     margin-left: 500px; 
     bottom: 10px;  
+
 }
 
-.card-weather h2{
+.card-weather h2::after {
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+  }
+
+.data {
+    top: -420px;
+    left: 40px;
+  }
+
+  .weather {
+    top: -360px;
+    right: 40px;
+  }
+
+  .weather img {
     position: absolute;
-    width: 190px;
-    margin-top: 5px;
+    left: -163px;
+    transform: translateY(-64px);
+    width: 100%;
+    max-width: 600px;
 }
-
-
 
 .me {
     background-color: #c8102e;
 }
 
-.card-weather {
-    
-}
-
 .bird {
-    position: relative;
+    
     height: 500px;
 }
 
