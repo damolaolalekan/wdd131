@@ -58,6 +58,16 @@ main{
     font-size: 18px;
 }
 
+.card-weather h2::after {
+    content: "⛅";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+   
+  }
+
+
 .card-weather h2{
     position: relative;
     width: 210px;
@@ -84,11 +94,7 @@ position: relative;
 }
 
 .weather img {
-    position: absolute;
-    left: -163px; 
-    transform: translateY(-64px); 
-    width: 100%;
-    max-width: 600px;
+    display: none;
 }
 
 

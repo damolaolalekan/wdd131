@@ -22,6 +22,11 @@ main, header, footer {
      width: 100%;
 }
 
+main {
+  grid-template-columns: 1fr;
+}
+
+
 .me {
     background-color: var(--primary-color);
     color: white;
@@ -29,13 +34,16 @@ main, header, footer {
     height: 80px;
 }
 
+.weather {
+  text-align: center;
+}
 
-    picture img {
-        display: block;
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
+.weather img {
+  display: block;
+  margin: 0.5rem auto 0;
+  width: 48px;
+  height: auto;
+}
 
 
 .bird {
@@ -46,15 +54,6 @@ main, header, footer {
     padding-top: 20px;
     text-align: center;
  }
-
-h2::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 4px;
-  background-color: var(--primary-color);
-  margin: 10px auto 0;
-}
    
 
 ul {
@@ -80,12 +79,6 @@ li {
 .card-weather {
     background-color: white;
     
-}
-
-.weather img {
-    margin-bottom: 2px;
-     width: 50px;
-     margin-left: 11rem;
 }
 
 .card-weather p {
