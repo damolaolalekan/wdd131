@@ -3,6 +3,7 @@
 main, header, footer {
     margin: 0 auto;
     max-width: 850px;
+    width: 100%;
 }
 
 .me {
@@ -14,6 +15,10 @@ main, header, footer {
 
 img {
     width: 850px;
+}
+
+main{
+    position: relative;
 }
 
 
@@ -34,9 +39,7 @@ header {
 
 }
 
-main{
-    position: relative;
-}
+
 
 .card {
     position: absolute;
