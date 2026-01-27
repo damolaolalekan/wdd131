@@ -8,7 +8,7 @@ document.getElementById("lastModified").textContent = document.lastModified;
 const temperature = 10; // °C
 const windSpeed = 5;    // km/h
 
-// Wind chill calculation function (ONE return line as required)
+// Wind chill calculation function
 function calculateWindChill(temp, speed) {
   return (
     13.12 +
@@ -18,7 +18,7 @@ function calculateWindChill(temp, speed) {
   ).toFixed(1);
 }
 
-// Display wind chill only if conditions are met
+
 const windChillElement = document.getElementById("windchill");
 
 if (temperature <= 10 && windSpeed > 4.8) {
