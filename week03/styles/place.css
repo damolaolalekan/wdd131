@@ -12,6 +12,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+picture img,
+.bird {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
