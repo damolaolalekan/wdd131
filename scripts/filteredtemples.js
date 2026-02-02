@@ -115,7 +115,21 @@ const temples = [
     dedicated: "1996, May, 26",
     area: 21000,
     imageUrl: "https://c8.alamy.com/comp/AN4A90/1996-hong-kong-peoples-republic-of-china-hong-kong-island-seen-from-AN4A90.jpg"
-  }
+  },
+{
+  templeName: "Hong Kong China",
+    location: "Hong Kong, China",
+    dedicated: "1996, May, 26",
+    area: 21000,
+    imageUrl: "https://c8.alamy.com/comp/AN4A90/1996-hong-kong-peoples-republic-of-china-hong-kong-island-seen-from-AN4A90.jpg"
+  },
+  {
+    templeName: "Rome Italy",
+    location: "Rome, Italy",
+    dedicated: "2019, March, 10",
+    area: 40000,
+    imageUrl: "https://c8.alamy.com/comp/PDCR5B/rome-italy-23062018-st-peters-cathedral-on-st-peters-square-in-vatican-PDCR5B.jpg"
+  },
 ];
 
 
