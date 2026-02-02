@@ -19,11 +19,13 @@
   }
 
   
-  h1 {
-    padding-left: 40px;
+  header h1 {
+    display: block;
   }
 
-  
+  nav {
+    display: block
+  }
 
   .res-grid {
   display: grid;

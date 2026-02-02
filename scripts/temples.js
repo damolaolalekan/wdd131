@@ -32,3 +32,12 @@ if (menuBtn && nav) {
     });
   });
 }
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth >= 640) {
+    nav.classList.remove("show");
+    menuBtn.classList.remove("show");
+    header.classList.remove("menu-open");
+  }
+});
+
