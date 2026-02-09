@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+  header {
+  background-color: #3c0a64;
+  color: white;
+  padding: 1rem;
+
+}
+
+.new {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: 0.7rem;
+}
+
+.logo img {
+   background-color: white;
+    border-radius: 50%;
+    border: 6px solid purple;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav {
+  display: none;
+}
+
+nav.show {
+  display: block;
+}
+
+.navigation {
+  list-style: none;
+}
+
+.navigation li {
+  margin: 0.5rem 0;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.contact {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #3c0a64;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left:2.5rem ;
+}
+
+
+/* HAMBURGER */
+#menu {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #3c0a64;
+  color: white;
+  border: none;
+}
+
+#menu::before {
+  content: "≡";
+}
+
+#menu.show::before {
+  content: "X";
+}
+
+#menu.show {
+  margin-bottom: 7em;
+}
+
+main {
+  padding: 1rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #3c0a64;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}

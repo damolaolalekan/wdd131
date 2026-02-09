@@ -1,0 +1,156 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+/* HEADER */
+header {
+  background: #3b0033;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+    width: 60%;
+    margin: auto
+}
+
+.checkboxes label {
+  display: block;
+  margin-top: 5px;
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* FORM CARD */
+.form-card {
+  background: #d6d0d4;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 6px;
+}
+
+/* FIELDSET */
+.wf1 fieldset {
+  border: none;
+  padding: 0;
+}
+
+/* LABELS */
+.wf1 label,
+.group-title {
+  font-weight: bold;
+  margin-top: 1.5rem;
+  display: block;
+  color: #000;
+}
+
+/* SELECT + INPUTS */
+.wf1 select,
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #999;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+/* TEXTAREA */
+.wf1 textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+/* RATING */
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.rating label {
+  text-align: center;
+  cursor: pointer;
+}
+
+.rating span {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.rating input {
+  width: 22px;
+  height: 22px;
+}
+
+/* CHECKBOXES */
+.wf1 input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  margin-right: 0.5rem;
+}
+
+.wf1 label input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+/* OPTIONAL TEXT */
+.optional {
+  color: #1a4fd8;
+  font-weight: normal;
+}
+
+/* SUBMIT BUTTON */
+.wf1 input[type="submit"] {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: #eee;
+  border: 2px solid #999;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.wf1 input[type="submit"]:hover {
+  background: #ddd;
+}
+
+/* FOOTER */
+footer {
+  background: #3b0033;
+  color: white;
+  text-align: center;
+  padding: .5rem 0;
+  margin-top: 2rem;
+}
+
+
+
+
+
+
+
+

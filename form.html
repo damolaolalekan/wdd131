@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review</title>
+
+    <!-- STYLE SHEETS -->
+<link href="styles/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="styles/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="styles/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="styles/large.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- HEADER HERE -->
+	<header>
+ <h1>Product Review</h1>
+    </header>
+
+    <main>
+        <form method="get" action="review.html" class="wf1">
+            <fieldset>
+
+        <label for="product">Product Name</label>
+            <select id="product" name="product" required>
+                <option value="" disabled selected>Choose a product ...</option>
+            </select>
+        
+        <!-- Rating -->
+        <p class="group-title">Overall Rating</p>
+      <div class="rating">
+        <label><input type="radio" id="rate1" name="rating" value="1" required> ☆</label>
+        <label><input type="radio" id="rate2" name="rating" value="2"> ☆☆</label>
+        <label><input type="radio" id="rate3" name="rating" value="3"> ☆☆☆</label>
+        <label><input type="radio" id="rate4" name="rating" value="4"> ☆☆☆☆</label>
+        <label><input type="radio" id="rate5" name="rating" value="5"> ☆☆☆☆☆</label>
+      </div>
+
+         <label for="date">Date of Installation</label>
+         <input type="date" id="date" name="completedDate" required>
+
+        <p class="group-title">Software Needed</p>
+        <label for="durability"><input type="checkbox" id="durabilty" name="features" value="yes"> Durability</label>
+        <label for="ease"><input type="checkbox" id="ease" name="features" value="yes"> Ease of Use</label>
+        <label for="performance"><input type="checkbox" id="performance" name="features" value="yes"> Performance</label>
+        <label for="design"><input type="checkbox" id="design" name="features" value="yes"> Design</label>
+
+         <!-- Review -->
+      <label>Written Review <span>(Optional)</span></label>
+      <textarea id="review" name="review" rows="5"></textarea>
+
+      <!-- Name -->
+      <label for="username">Your Name <span>(Optional)</span></label>
+      <input type="text" id="username" name="username" >
+
+      <!-- Submit -->
+      <input type="submit" value="Post Review">
+
+    </fieldset>
+    </form>
+    </main>
+
+    <!-- FOOTER HERE -->   
+    <footer>
+        <p>&copy; <span id="year"></span> Olalekan Damola🌍 Madagascar</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>    
+</body>
+</html>
