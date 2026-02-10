@@ -15,6 +15,13 @@ body {
 
 }
 
+header, main, footer{
+  width: 100%;
+  margin: auto
+}
+
+
+
 .new {
     display: flex;
     justify-content: space-between;
@@ -42,6 +49,7 @@ body {
 
 nav {
   display: none;
+
 }
 
 nav.show {
@@ -64,13 +72,16 @@ nav.show {
 
 .contact {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #ffffff;
+    padding: 5px 0;
     color: #3c0a64;
     text-decoration: none;
+    text-align: center;
     border-radius: 5px;
     font-weight: bold;
-    margin-left:2.5rem ;
+    margin-left:2rem ;
+    border: 2px solid #c6bfcd;
+    max-width: 100%;
+
 }
 
 

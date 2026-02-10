@@ -8,7 +8,6 @@
 header, main, footer {
     min-width: 100%;
     margin: 0 auto;
-    
 }
 
 main {
@@ -66,13 +65,13 @@ li a:hover {
 
 .contact {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #ffffff;
-    color: #3c0a64;
+    padding: 8px 0;
     text-decoration: none;
+    text-align: center;
     border-radius: 5px;
     font-weight: bold;
-    margin-left: 200px;
+     border: 2px solid #c6bfcd;
+     max-width: 100%;
 }
 
 .nav-contact {
