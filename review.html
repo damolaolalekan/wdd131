@@ -13,7 +13,13 @@
 
 
 
-<script src="week05/scripts/scripts.js" defer></script>
+<script src="week05/scripts/scripts.js" defer>
+    let count = localStorage.getItem("reviewCount");
+        count = count ? Number(count) + 1 : 1;
+        localStorage.setItem("reviewCount", count);
+
+        console.log("Total reviews submitted:", count);
+</script>
 
 <!-- STYLE SHEETS -->
 <link href="week05/styles/normalize.css" rel="stylesheet">
