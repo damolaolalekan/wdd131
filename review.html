@@ -46,5 +46,11 @@
         <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
 
+    <script>
+  let count = localStorage.getItem("reviewCount");
+  count = count ? Number(count) + 1 : 1;
+  localStorage.setItem("reviewCount", count);
+  console.log("Total reviews submitted:", count);
+    </script>
 </body>
 </html>
