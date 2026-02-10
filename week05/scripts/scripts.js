@@ -28,3 +28,10 @@ products.forEach(product => {
   option.textContent = product.name;
   productSelect.appendChild(option);
 });
+
+
+ let count = localStorage.getItem("reviewCount");
+        count = count ? Number(count) + 1 : 1;
+        localStorage.setItem("reviewCount", count);
+
+        console.log("Total reviews submitted:", count);
