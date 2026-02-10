@@ -28,7 +28,7 @@
 
         <label for="product">Product Name</label>
             <select id="product" name="product" required>
-                <option value="" disabled selected>Choose a product ...</option>
+                <option value="" disabled selected>Select a product ...</option>
                 <option value="Cerave">CeraVe Hydrating Facial Cleanser</option>
                 <option value="Neutrogena">Neutrogena Hydro Boost Cleanser</option>
                 <option value="Cetaphil">Cetaphil Gentle Skin Cleanser</option>
@@ -49,10 +49,10 @@
          <input type="date" id="date" name="completedDate" required>
 
         <p class="group-title">Software Needed</p>
-        <label for="durability"><input type="checkbox" id="durabilty" name="features" value="yes"> Durability</label>
-        <label for="ease"><input type="checkbox" id="ease" name="features" value="yes"> Ease of Use</label>
-        <label for="performance"><input type="checkbox" id="performance" name="features" value="yes"> Performance</label>
-        <label for="design"><input type="checkbox" id="design" name="features" value="yes"> Design</label>
+        <label for="durability"><input type="checkbox" id="durabilty" name="features[]" value="yes"> Durability</label>
+        <label for="ease"><input type="checkbox" id="ease" name="features[]" value="yes"> Ease of Use</label>
+        <label for="performance"><input type="checkbox" id="performance" name="features[]" value="yes"> Performance</label>
+        <label for="design"><input type="checkbox" id="design" name="features[]" value="yes"> Design</label>
 
          <!-- Review -->
       <label>Written Review <span>(Optional)</span></label>
