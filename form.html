@@ -29,8 +29,8 @@
 
     <main>
         <form method="get" action="review.html" class="wf1">
+            <legend>
             <fieldset>
-
         <label for="product">Product Name</label>
             <select id="product" name="product" required>
                 <option value="" disabled selected>Select a product ...</option>
@@ -68,10 +68,11 @@
       <input type="text" id="username" name="username" >
 
       <!-- Submit -->
-       <label for="submit"></label>
+       <label for="submit">
       <input type="submit" value="Post Review">
-
+      </label>
     </fieldset>
+    </legend>
     </form>
     </main>
 
@@ -80,7 +81,5 @@
         <p>&copy; <span id="year"></span> Olalekan Damola🌍 Madagascar</p>
         <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
-
-    <script src="scripts/scripts.js" defer></script>    
 </body>
 </html>
