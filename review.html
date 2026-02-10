@@ -12,6 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
+<script src="week05/scripts/scripts.js" defer></script>
 
 <!-- STYLE SHEETS -->
 <link href="week05/styles/normalize.css" rel="stylesheet">
@@ -44,14 +45,6 @@
         <p>&copy; <span id="year"></span> Olalekan Damola🌍 Madagascar</p>
         <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
-
-    <script defer>
-    let count = localStorage.getItem("reviewCount");
-        count = count ? Number(count) + 1 : 1;
-        localStorage.setItem("reviewCount", count);
-
-        console.log("Total reviews submitted:", count);
-</script>
 
 </body>
 </html>
