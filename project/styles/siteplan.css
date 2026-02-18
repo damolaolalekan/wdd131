@@ -18,7 +18,8 @@ body {
   padding: 1rem;
   background-color: #4a2c1d;
   border-radius: 5px;
-  width: 100%
+  width: 100%;
+  overflow: hidden;
 }
 
 header, main, footer {
@@ -43,8 +44,6 @@ header.menu-open .nav-contact {
 nav.show {
   display: block;
 }
-
-.mobile-contact
 
 
 .cocoa {
@@ -132,7 +131,13 @@ img {
 .logo {
     display: flex;
     align-items: center;
-    gap: 9rem;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;;
+}
+
+.nav-contact {
+  display: flex;
 }
 
 nav.show {
@@ -154,15 +159,15 @@ nav.show {
 
 .contact {
     display: inline-block;
-    padding: 0.5rem 10rem;
+    padding: 0.5rem 1.2rem;
     color: #151316;
     text-decoration: none;
     text-align: center;
-    align-items: center;
     border-radius: 5px;
     font-weight: bold;
     border: 2px solid #f4f4f2;
     background-color: #c6bdb9;
+    width: 100%;
 }
 
 .mobile-contact-btn {
