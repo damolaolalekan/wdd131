@@ -66,7 +66,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0.2rem;
 }
 
 .logo-content {
@@ -79,12 +78,19 @@ img {
 .logo img {
    background-color: white;
     border-radius: 50%;
-    border: 6px solid purple;
+    border: 6px solid rgb(105, 75, 105);
+    height: 5rem;
+    width: 5rem;
 }
 
 .name {
-    font-size: 28px;
+    font-size: 1.2rem;
     font-weight: bold;
+}
+
+.logo-content h1 {
+    font-size: 0.9rem;
+    line-height: 1.1;
 }
 
 nav {
@@ -125,16 +131,17 @@ nav.show {
 
 
 .contact-btn {
+  display: inline-block;
   border: 2px solid #c6bfcd;
   border-radius: 5px;
   text-decoration: none;
-  margin: 100px;
+  margin: 20px auto;
   background-color: #4a2c1d;
   color: white;
   font-weight: bold;
   font-size: 1rem;
   border: 1px solid #4a2c1d;
-  padding: 10px 20px;
+  padding: 12px 24px;
   
 }
 
@@ -173,6 +180,7 @@ nav.show {
 /* Who We Serve Buttons */
 .who-we-serve .serve-buttons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
@@ -184,11 +192,11 @@ nav.show {
 }
 
 .who-we-serve section img {
-  width: 350px;
-  margin: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 1rem 0;
 }
-
-
 
 .who-we-serve section {
   padding: 2rem 1rem;
@@ -234,7 +242,7 @@ nav.show {
   font-size: 2rem;
   font-weight: 700;
   cursor: pointer;
-  background-color: #3c0a64;
+  background-color: #4a2c1d;
   color: white;
   border: none;
 }
