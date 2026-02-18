@@ -51,6 +51,11 @@ header, main, footer {
   padding: 0 1rem;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .cocoa-image img {
   width: 100%;
   height: auto;
