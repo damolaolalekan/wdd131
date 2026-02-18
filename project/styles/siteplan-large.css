@@ -8,6 +8,7 @@
 header, main, footer {
     max-width: 100%;
     margin: 0 auto;
+    width: 100%;;
 }
 
 main {
@@ -62,9 +63,10 @@ li a:hover {
     align-items: center; 
     justify-content: space-between;
     margin: auto 0;
-    gap: 6rem;
+    gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    text-align: left;
 }
 
 .cocoa p {
@@ -127,13 +129,15 @@ li a:hover {
   border: 2px solid #c6bfcd;
   border-radius: 5px;
   text-decoration: none;
-  margin: 100px;
+  margin: 20px auto;
   background-color: #4a2c1d;
   color: white;
   font-weight: bold;
   font-size: 1rem;
   border: 1px solid #4a2c1d;
   padding: 10px 20px;
+  display: inline-block;;
+
   
 }
 
@@ -247,6 +251,12 @@ li a:hover {
   display: block;
 }
 
+.new, .cocoa, .section, .who-we-serve, .wf1 fieldset {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+}
+
 
 footer {
   background-color: #4a2c1d;
@@ -254,9 +264,23 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: 3rem;
+  width: 100%;
 }
 
-/*----------- FORM --------------*/
+*----------- FORM --------------*/
+fieldset {
+    margin:  0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+   
+}
+
+legend {
+    color: #445ba9;
+    padding: 0 .5rem;
+}
+
 .wf1 fieldset{
     margin: 2rem 0;
     border: 1px solid #ddd;
@@ -264,18 +288,12 @@ footer {
     padding: .5rem 2%;
 }
 
-.wf1 legend {
-    color: #445ba9;
-    padding: 0 .5rem;
-}
-
 .wf1 label {
     display: block;
-    padding-top: 1rem;
     color: #9c2c13;
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: bold;
-    padding-right: 50rem;
+    text-align: left;
 }
 
 .wf1 div {
@@ -287,19 +305,27 @@ footer {
 .wf1 input[type="text"],
 .wf1 input[type="tel"],
 .wf1 input[type="email"],
-.wf1 input[type="date"],
-.wf1 select,
-.wf1 input[type="number"]
+.wf1 textarea
 {
-    background-color: #eee;
-    display: block;
-    border: solid 1px #999;
-    border-radius: 6px;
-    padding: .75rem;
-    color: #555;
+  display: block;
+  width: 80%;
+  background-color: #eee;
+  border: solid 1px #999;
+  border-radius: 6px;
+  padding: .75rem;
+  margin-top: 0.3rem;
+}
+
+
+.wf1 input[type="submit"] {
     width: 100%;
-    max-width: 400px;
-    appearance: none;
+    margin-top: 2rem;
+    background-color: #4a2c1d;
+    color: white;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 

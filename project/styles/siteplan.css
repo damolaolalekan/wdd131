@@ -264,6 +264,23 @@ main {
   text-align: center;
 }
 
+.section-me {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 6px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section-me p{
+  border: 1px solid #0f0c0c;
+  margin: 0 auto;
+  padding: 20px
+
+}
+
+
 footer {
   background-color: #4a2c1d;
   color: white;
@@ -271,3 +288,66 @@ footer {
   padding: 1rem;
   margin-top: 3rem;
 }
+
+*----------- FORM --------------*/
+fieldset {
+    margin:  0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+   
+}
+
+legend {
+    color: #445ba9;
+    padding: 0 .5rem;
+}
+
+.wf1 fieldset{
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf1 label {
+    display: block;
+    color: #9c2c13;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.wf1 div {
+    padding-top: 1rem;
+    color: #445ba9;
+    font-size: .9rem
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="tel"],
+.wf1 input[type="email"],
+.wf1 textarea
+{
+  display: block;
+  width: 100%;
+  background-color: #eee;
+  border: solid 1px #999;
+  border-radius: 6px;
+  padding: .75rem;
+  margin-top: 0.3rem;
+}
+
+
+.wf1 input[type="submit"] {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: #4a2c1d;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
