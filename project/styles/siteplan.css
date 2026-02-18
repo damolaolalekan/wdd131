@@ -66,6 +66,11 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 3rem;
+}
+
+.new .logo-content {
+  
 }
 
 .logo-content {
@@ -81,6 +86,7 @@ img {
     border: 6px solid rgb(105, 75, 105);
     height: 5rem;
     width: 5rem;
+    height: auto;
 }
 
 .name {
@@ -115,7 +121,6 @@ nav.show {
   text-decoration: none;
 }
 
-
 .contact {
     display: inline-block;
     padding: 5px 0;
@@ -129,6 +134,22 @@ nav.show {
     background-color: #c6bfcd;
 }
 
+.mobile-contact-btn {
+  background-color: #c6bfcd;
+  color: #3c0a64;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  cursor: pointer;
+  order: 2px;
+}
+nav{
+    display: none;
+
+}
 
 .contact-btn {
   display: inline-block;
@@ -145,11 +166,19 @@ nav.show {
   
 }
 
+.spin {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin: 0 auto;
+}
+
+
+
 .partner-grid {
     display: block;
     text-align: center;
     gap: 4rem;
-
 }
 
 .partner-grid img {
@@ -238,7 +267,7 @@ nav.show {
 
 /* HAMBURGER */
 #menu {
-  display: block;
+  margin: 0;
   font-size: 2rem;
   font-weight: 700;
   cursor: pointer;
@@ -249,10 +278,12 @@ nav.show {
 
 #menu::before {
   content: "≡";
+
 }
 
 #menu.show::before {
   content: "X";
+  
 }
 
 #menu.show {

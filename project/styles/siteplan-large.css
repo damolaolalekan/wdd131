@@ -19,7 +19,7 @@ main {
 
 .logo {
     display: flex;
-    justify-content: center;
+  ;
 }
 
 nav{
@@ -32,7 +32,16 @@ nav ul {
     gap: 1rem;
     list-style: none;
     margin: 3rem 0;
-    padding: 0
+    padding: 0;
+
+}
+
+.mobile-contact-btn {
+  display: none;    
+}
+
+header nav {
+  gap: 4rem;
 }
 
 
@@ -112,7 +121,6 @@ li a:hover {
 }
 
 .contact {
-
     display: inline-block;
     padding: 5px 0;
     color: #3c0a64;
