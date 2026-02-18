@@ -11,6 +11,13 @@ header, main, footer {
     width: 100%;;
 }
 
+.header-container{
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  
+}
+
 main {
   text-align: center;
   padding: 2rem;
@@ -19,7 +26,7 @@ main {
 
 .logo {
     display: flex;
-  ;
+    align-items: center;
 }
 
 nav{
@@ -33,15 +40,12 @@ nav ul {
     list-style: none;
     margin: 3rem 0;
     padding: 0;
+    width: auto;
 
 }
 
 .mobile-contact-btn {
   display: none;    
-}
-
-header nav {
-  gap: 4rem;
 }
 
 
@@ -122,7 +126,7 @@ li a:hover {
 
 .contact {
     display: inline-block;
-    padding: 5px 0;
+    padding: 5px 20px;
     color: #3c0a64;
     text-decoration: none;
     text-align: center;
@@ -186,6 +190,10 @@ li a:hover {
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
+}
+
+nav {
+  margin-left: 70px;
 }
 
 .section {

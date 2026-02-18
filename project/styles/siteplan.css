@@ -11,15 +11,41 @@ body {
 }
 
   header {
+  display: flex;
   color: white;
+  justify-content: space-between;
+  align-items: center;
   padding: 1rem;
   background-color: #4a2c1d;
+  border-radius: 5px;
+  width: 100%
 }
 
 header, main, footer {
   width: 100%;
   margin: auto 0;
 }
+
+
+/* When hamburger is open */
+header.menu-open .logo {
+  display: none;
+}
+
+header.menu-open .mobile-contact-btn {
+  display: none;
+}
+
+header.menu-open .nav-contact {
+  width: 100%;
+}
+
+nav.show {
+  display: block;
+}
+
+.mobile-contact
+
 
 .cocoa {
     display: block;
@@ -62,15 +88,20 @@ img {
 }
 
 
-.new {
+.header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 3rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
 }
 
-.new .logo-content {
-  
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  justify-content: center;
+
 }
 
 .logo-content {
@@ -86,11 +117,10 @@ img {
     border: 6px solid rgb(105, 75, 105);
     height: 5rem;
     width: 5rem;
-    height: auto;
 }
 
 .name {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
@@ -99,9 +129,10 @@ img {
     line-height: 1.1;
 }
 
-nav {
-  display: none;
-
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 9rem;
 }
 
 nav.show {
@@ -123,15 +154,15 @@ nav.show {
 
 .contact {
     display: inline-block;
-    padding: 5px 0;
-    color: #3c0a64;
+    padding: 0.5rem 10rem;
+    color: #151316;
     text-decoration: none;
     text-align: center;
+    align-items: center;
     border-radius: 5px;
     font-weight: bold;
-    margin-left:2rem ;
-    border: 2px solid #c6bfcd;
-    background-color: #c6bfcd;
+    border: 2px solid #f4f4f2;
+    background-color: #c6bdb9;
 }
 
 .mobile-contact-btn {
@@ -144,8 +175,8 @@ nav.show {
   font-size: 0.8rem;
   white-space: nowrap;
   cursor: pointer;
-  order: 2px;
 }
+
 nav{
     display: none;
 
@@ -156,7 +187,6 @@ nav{
   border: 2px solid #c6bfcd;
   border-radius: 5px;
   text-decoration: none;
-  margin: 20px auto;
   background-color: #4a2c1d;
   color: white;
   font-weight: bold;
@@ -165,14 +195,6 @@ nav{
   padding: 12px 24px;
   
 }
-
-.spin {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-  margin: 0 auto;
-}
-
 
 
 .partner-grid {
@@ -278,6 +300,7 @@ nav{
 
 #menu::before {
   content: "≡";
+  
 
 }
 
@@ -287,7 +310,9 @@ nav{
 }
 
 #menu.show {
-  margin-bottom: 7em;
+  display: block;
+  margin-bottom: 6rem;
+  
 }
 
 main {
