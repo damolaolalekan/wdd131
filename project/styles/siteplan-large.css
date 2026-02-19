@@ -31,6 +31,7 @@ main {
 
 nav{
     display: flex;
+  
 }
 
 nav ul {
@@ -190,10 +191,6 @@ li a:hover {
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
-}
-
-nav {
-  margin-left: 70px;
 }
 
 .section {
