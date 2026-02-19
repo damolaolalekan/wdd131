@@ -267,7 +267,7 @@ nav {
   display: block;
 }
 
-.new, .cocoa, .section, .who-we-serve, .wf1 fieldset {
+.cocoa, .section, .who-we-serve, .wf1 fieldset {
   max-width: 1200px;
   margin: 0 auto;
   width: 90%;

@@ -133,7 +133,7 @@ img {
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    width: 100%;;
+    width: 100%;
 }
 
 .nav-contact {
@@ -285,10 +285,6 @@ nav{
   padding: 1rem;
   background: #f3e0c1;
   border-radius: 5px;
-}
-
-.who-we-serve .serve-content.active {
-  display: block;
 }
 
 

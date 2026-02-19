@@ -28,7 +28,7 @@ if (services.length > 2) {
 } else {
   console.log("Limited services.");
 }
-
+ 
 
 if (menuBtn && nav) {
   menuBtn.addEventListener('click', (e) => {
