@@ -1,0 +1,38 @@
+@media (min-width: 40em) {
+
+  #menu {
+    display: none;
+  }
+
+  header nav {
+    display: block;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  nav a:hover {
+    border: 2px solid #ffffff;
+  }
+
+  
+  header h1 {
+    display: block;
+  }
+
+  nav {
+    display: block
+  }
+
+  .res-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+}
+
+

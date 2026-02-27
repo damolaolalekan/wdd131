@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Olalekan Damola">
+    <meta name="description" content="Submit a detailed product review including ratings, features, and written feedback to help other users make informed decisions.">
+
+    <title>Product Review</title>
+
+    <script src="week05/scripts/scripts.js" defer>
+
+    </script>
+    <!-- STYLE SHEETS -->
+<link href="week05/styles/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="week05/styles/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="week05/styles/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="week05/styles/large.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- HEADER HERE -->
+	<header>
+ <h1>Product Review</h1>
+    </header>
+
+    <main>
+        <form method="get" action="review.html" class="wf1">
+            <fieldset>
+        <label for="product">Product Name</label>
+            <select id="product" name="product" required>
+                <option value="" disabled selected>Select a product ...</option>
+                <option value="Cerave">CeraVe Hydrating Facial Cleanser</option>
+                <option value="Neutrogena">Neutrogena Hydro Boost Cleanser</option>
+                <option value="Cetaphil">Cetaphil Gentle Skin Cleanser</option>
+                <option value="White">Pure White body wash</option>
+            </select>
+        
+        <!-- Rating -->
+        <p class="group-title">Overall Rating</p>
+      <div class="rating">
+        <label for="rate1"><input type="radio" id="rate1" name="rating" value="1" required> ☆</label>
+        <label for="rate2"><input type="radio" id="rate2" name="rating" value="2" required> ☆☆</label>
+        <label for="rate3"><input type="radio" id="rate3" name="rating" value="3" required> ☆☆☆</label>
+        <label for="rate4"><input type="radio" id="rate4" name="rating" value="4" required> ☆☆☆☆</label>
+        <label for="rate5"><input type="radio" id="rate5" name="rating" value="5" required> ☆☆☆☆☆</label>
+      </div>
+
+         <label for="date">Date of Installation</label>
+         <input type="date" id="date" name="completedDate" required>
+
+        <h1 class="group-title">Product Features</h1>
+        <label for="durability"><input type="checkbox" id="durability" name="features[]" value="yes"> Durability</label>
+        <label for="ease"><input type="checkbox" id="ease" name="features[]" value="yes"> Ease of Use</label>
+        <label for="performance"><input type="checkbox" id="performance" name="features[]" value="yes"> Performance</label>
+        <label for="design"><input type="checkbox" id="design" name="features[]" value="yes"> Design</label>
+
+         <!-- Review -->
+      <label for="review">Written Review <span>(Optional)</span></label>
+      <textarea id="review" name="review" rows="5" cols="50" required></textarea>
+
+      <!-- Name -->
+      <label for="username">Your Name <span>(Optional)</span></label>
+      <input type="text" id="username" name="username" >
+
+      <!-- Submit -->
+      <input type="submit" value="Post Review">
+    </fieldset>
+    </form>
+    </main>
+
+    <!-- FOOTER HERE -->   
+    <footer>
+        <p>&copy; <span id="year"></span> Olalekan Damola🌍 Madagascar</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
